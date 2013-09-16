@@ -55,7 +55,7 @@ topvarg <- 1000
 duplcor <- 0.975
 
 ## read info about datasets
-datasets <- read.csv(file.path("data", "extdata", "datasets.csv"), stringsAsFactors=FALSE)
+datasets <- read.csv(file.path("inst", "extdata", "datasets.csv"), stringsAsFactors=FALSE)
 datasets <- datasets[datasets[ , "Include"], , drop=FALSE]
 
 # clinical info
